@@ -1,0 +1,10 @@
+BAIXADA CITY — MRI QBOX
+1. Crie um repositório público baixada-loadscreen no GitHub.
+2. Envie video.mp4 (preferencialmente H.264) e musica.mp3. Se MP4 não funcionar no FiveM, use WebM VP8/VP9 e altere o link.
+3. Settings > Pages > Deploy from a branch > main > / (root) > Save.
+4. Abra os links de mídia no navegador e ajuste html/config.js. Os links incluídos são exemplos não verificados.
+5. Copie a pasta baixada_loadscreen para resources da base e adicione ensure baixada_loadscreen ao server.cfg.
+6. Antes de desativar a loading screen antiga, verifique dependências e chamadas de encerramento manual no spawn/login. Não altere esses sistemas sem revisar. Este recurso usa encerramento padrão do FiveM.
+7. Reinicie e teste com um cliente. A barra usa o evento loadProgress do FiveM, não representa necessariamente a conclusão do spawn.
+8. Para trocar a mídia, substitua os arquivos no GitHub. Cache pode atrasar atualizações. Use mídia autorizada. Upload pelo navegador GitHub limitado a 25 MiB por arquivo; Pages tem limites de tráfego.
+Não inclui vídeo nem música. Não foi testado em uma instância FiveM/MRI QBOX. Nenhum arquivo da base original foi alterado.
